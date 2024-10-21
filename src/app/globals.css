@@ -7,6 +7,16 @@
   @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white;
 }
 
+
+.box {
+  float: left;
+  width: 33%;
+  margin-top:0px;
+  height:fit-content;
+  background-color: rgb(238, 238, 122);
+  text-align: center;
+  color: #0c0b0b;
+}
 .navbar_link:hover{
   color: #e56b1f;
   transition: all 0.5s;

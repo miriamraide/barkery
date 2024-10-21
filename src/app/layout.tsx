@@ -1,9 +1,14 @@
 import HeaderTop from "@/components/HeaderTop";
 import HeaderMain from "@/components/HeaderMain";
 import Navbar from "@/components/NavBar";
+import Start from "@/components/Start";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 const geistSans = localFont({
@@ -30,12 +35,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-      
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`} 
+       className={`${geistSans.variable} ${geistMono.variable} antialiased`} 
       >
-         <HeaderTop/>
-        <HeaderMain/>
-        <Navbar/>
        {children}
       </body>
     </html>

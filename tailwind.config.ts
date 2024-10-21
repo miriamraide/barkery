@@ -16,6 +16,9 @@ const config: Config = {
         accent: " #87CEFA",
         blackish: "#1b1b1b",
       },
+      backgroundImage: {
+        bgImage: "url('/bark-bg.jpg')",
+      },
     },
   },
   plugins: [],

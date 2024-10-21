@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const HeaderMain = () => {
   return (
-    <div className='border-b border-red-400 py-6 bg-red-400 '>
+    <div className='border-b border-red-400 py-5 bg-red-400  pb-5 pt-5'>
       <div className='container sm:flex justify-between items-center my-0'>
         <Image src="/barkery-logo.jpg"  
         width={90} 
