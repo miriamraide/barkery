@@ -6,7 +6,8 @@
     "price": 35000,
     "quantity":1,
     "stock":10,
-    "offer":1
+    "offer":1,
+    "category":1
   },
 
 {
@@ -17,8 +18,8 @@
     "price": 25.000,
     "quantity":1,
     "stock":10,
-    "offer":1
-
+    "offer":1,
+    "category":2
   },
   {
     "id": 4,
@@ -28,18 +29,20 @@
     "price": 55000,
     "quantity":1,
     "stock":10,
-    "offer":1
+    "offer":0.2,
+    "category":2
   },
   
   {
     "id": 5,
-    "name": "Pecera de vidrio acojedora adaptable a lugares pqueños",
+    "name": "Pecera de vidrio acojedora adaptable a lugares pequeños",
     "description": "Este estilo de pecera no desilusiona, siempre vigente para admirar a nuestros peces amigos.",
     "image": "bark05-fishbwl.jpg",
     "price": 45000,
     "quantity":1,
     "stock":10,
-    "offer":1
+    "offer":0.2,
+    "category":3
   },
   {
     "id": 6,
@@ -49,7 +52,8 @@
     "price": 35000,
     "quantity":1,
     "stock":10,
-    "offer":1
+    "offer":1,
+    "category":4
   },
   {
   "id": 7,
@@ -59,7 +63,8 @@
   "price": 32000,
   "quantity":1,
   "stock":10,
-  "offer":1
+  "offer":0.2,
+  "category":1
 },
 {
 "id": 8,
@@ -69,7 +74,8 @@
 "price": 5000,
 "quantity":1,
 "stock":10,
-"offer":1
+"offer":1,
+"category":1
 },
 {
   "id": 9,
@@ -79,7 +85,8 @@
   "price": 5000,
   "quantity":1,
   "stock":10,
-  "offer":1
+  "offer":1,
+  "category":2
   },
   {
     "id": 10,
@@ -89,7 +96,8 @@
     "price": 3000,
     "quantity":1,
     "stock":10,
-    "offer":1
+    "offer":1,
+    "category":4
     },
     {
       "id": 11,
@@ -99,7 +107,8 @@
       "price": 2000,
       "quantity":1,
       "stock":10,
-      "offer":1
+      "offer":1,
+      "category":3
       },
       {
         "id": 12,
@@ -109,7 +118,8 @@
         "price": 3500,
         "quantity":1,
         "stock":10,
-        "offer":1
+        "offer":1,
+        "category":5
         },
         {
           "id": 13,
@@ -119,7 +129,8 @@
           "price": 28000,
           "quantity":1,
           "stock":10,
-          "offer":1
+          "offer":0.2,
+          "category":1
           },
           {
             "id": 14,
@@ -129,7 +140,8 @@
             "price": 28000,
             "quantity":1,
             "stock":10,
-            "offer":1
+            "offer":0.2,
+            "category":2
             },
             {
               "id": 15,
@@ -139,8 +151,9 @@
               "price": 25000,
               "quantity":1,
               "stock":10,
-              "offer":1
-              },
+              "offer":1,
+              "category":1
+              }
               
             
 

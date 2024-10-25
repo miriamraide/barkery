@@ -91,7 +91,7 @@ const ProductCard: React.FC<propsType> = ({
             <h3 className='text-blue-800 text-center font-bold'>{mainTitle}</h3>
             <div>{totalRating(rating)}</div>
             <div className='flex font-bold gap-4'>
-              {price}
+              {price}npm 
             </div>
           </div>
 
