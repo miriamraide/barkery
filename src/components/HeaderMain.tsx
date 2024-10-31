@@ -5,7 +5,9 @@ import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { FaHeart } from "react-icons/fa6";
 import Image from 'next/image';
 
-const HeaderMain = () => {
+
+ const HeaderMain = ({ cartCount }: { cartCount: number }) => {
+
   return (
     <div className='border-b border-red-400 py-5 bg-red-400  pb-5 pt-5'>
       <div className='container sm:flex justify-between items-center my-0'>
@@ -27,8 +29,10 @@ const HeaderMain = () => {
           <div className='bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1'>0</div>
         </div>
         <div className='relative'> 
-            <HiOutlineShoppingBag/>
-          <div className='bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1 '>0</div>
+            <HiOutlineShoppingBag />  {/* Asegúrate de que el componente Navbar reciba props */}
+          <div className='bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1 '>
+           {cartCount} {/* Aquí mostramos el número de productos */}
+          </div>
         </div>
         </div>
    

@@ -1,0 +1,71 @@
+
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aqua;
+  }
+  
+  .grid-responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .product {
+    padding: 1rem;
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .cart-item {
+    background-color: crimson;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    width: 350px;
+    height: 250px;
+    background-color: white; /* Fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté por encima de todo */
+    border-radius: 20px;
+    border-color: black;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #005bb5;
+  }
+  
+  

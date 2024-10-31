@@ -1,0 +1,37 @@
+
+{
+    "products": [
+
+      {
+        "id": 5,
+        "name": "Mochila para llevar mascotas pequeñas/como gatos",
+        "mainTitle": "Confeccionada por abuelas del Noreste Argentino, super liviana y flexible, lista para llevar a todas partes",
+        "price": "35.000"
+      },
+      {
+        "id": 6,
+        "name": "Cama moderna, ideal para mascotas pequeñas",
+        "mainTitle": "Super contemporánea, y muy original, ideal para quienes buscan un estilo de decoración moderno",
+        "price": "Precio con descuento: $45.000"
+      },
+      
+      {
+        "id": 7,
+        "name": "Pecera de vidrio acojedora adaptable a lugares pequeños",
+        "mainTitle": "Este estilo de pecera no desilusiona, siempre vigente para admirar a nuestros peces amigos.",
+        "price":  "Precio con descuento: $55.000"
+      },
+      {
+        "id": 8,
+        "name": "Alimentador con semillas y néctar para pájaros",
+        "mainTitle": "Fácil de instalar, es un atractivo para ver alimentarse desde tu ventana, aves de distintos tipos y colores. Un sueño!.",
+        "price":  "Precio con descuento: $25.000"
+      },
+
+      { "id": 1, "img": "/bark-05-fishbowl.jpg", "name": "Producto A", "price": 50 },
+      { "id": 2, "img": "/bark-05-fishbowl.jpg", "name": "Producto B", "price": 100 },
+      { "id": 3, "img": "/bark-05-fishbowl.jpg", "name": "Producto C", "price": 150 },
+      { "id": 4, "img": "/bark-05-fishbowl.jpg", "name": "Producto D", "price": 200 }
+    ],
+    "cart": []
+  }
