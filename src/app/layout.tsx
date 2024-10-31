@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 
 import localFont from "next/font/local";
 import "./globals.css";
+import "./carrito.css";
 
 
 import "slick-carousel/slick/slick.css";

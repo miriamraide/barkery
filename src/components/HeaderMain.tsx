@@ -5,7 +5,9 @@ import {  HiOutlineShoppingCart } from 'react-icons/hi';
 import { FcGoogle } from "react-icons/fc";
 import Image from 'next/image';
 
-const HeaderMain = () => {
+
+ const HeaderMain = ({ cartCount }: { cartCount: number }) => {
+
   return (
     <div className='border-b border-red-400 py-5 bg-red-400  pb-5 pt-5'>
       <div className='container sm:flex justify-between items-center my-0'>
