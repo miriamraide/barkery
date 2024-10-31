@@ -3,7 +3,7 @@ import { BsFacebook,BsInstagram, BsTwitterX} from 'react-icons/bs'
 
 const HeaderTop = () => {
   return (
-    <div className='border-b border-blue-200 hidden sm:block bg-yellow-400 '>
+    <div className='border-b border-blue-200 hidden sm:block bg-blue-400 '>
     <div className='container py-4'>
       <div className='flex justify-between items-center'>
         <div className='hidden lg:flex gap-1'>
@@ -12,7 +12,7 @@ const HeaderTop = () => {
               href="https://www.facebook.com"
               target="_blank"
             >
-             <BsFacebook size={22}/>
+             <BsFacebook size={30}/>
             </a>
             </div>
             <div className='header-top-icon-container'>
@@ -20,7 +20,7 @@ const HeaderTop = () => {
               href="https://www.instagram.com"
               target="_blank"
             >
-              <BsInstagram size={22}/> 
+              <BsInstagram size={30}/> 
             </a>
             </div>
             <div className='header-top-icon-container'>
@@ -28,7 +28,7 @@ const HeaderTop = () => {
               href="https://www.twitter.com"
               target="_blank"
             >
-             <BsTwitterX size={22}/>  
+             <BsTwitterX size={30}/>  
             </a>
             </div>
            
@@ -43,10 +43,9 @@ const HeaderTop = () => {
             name='lenguage'
             id='lenguage'
             >
-              <option value='Español'>Español</option>
-              <option value='Inglés'>Inglés</option>
+              <option value='Español' className='font-bold'> <b>Español </b></option>
+              <option value='Inglés' className='font-bold'>Inglés</option>
           </select>
-
         </div>
       </div>
     </div>

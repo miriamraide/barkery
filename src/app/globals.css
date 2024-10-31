@@ -4,7 +4,7 @@
 
 @layer components {
 .header-top-icon-container {
-  @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white;
+  @apply bg-gray-800 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white;
 }
 
 
@@ -13,13 +13,30 @@
   width: 33%;
   margin-top:0px;
   height:fit-content;
-  background-color: rgb(238, 238, 122);
+  background-color: rgb(229, 142, 91);
   text-align: center;
   color: #0c0b0b;
 }
+
+.background-image {
+  background-image: url(
+    /bark-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+
 .navbar_link:hover{
   color: #e56b1f;
-  transition: all 0.5s;
+  transition: all 0.5s ;
 }
 
 .navbar_link:after{

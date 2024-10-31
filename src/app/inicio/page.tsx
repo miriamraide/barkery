@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import HeaderTop from "@/components/HeaderTop";
 
-function Inicio() {
+function OurCompany() {
   return (
-      <div className="container flex w-full">
+    <section className="background-image">
+    <HeaderTop/>
+      <div className="container flex w-full ">
        
         <div className="box text-lg text-center pb-6 sm:pb-0  ">
                     <div className= " font-bold text-4xl m-10 text-red-600">BARK y sus Amigos</div>
@@ -72,8 +75,7 @@ function Inicio() {
         </div>
 
         </div>
-       
+        </section>
   );
 }
-
-export default Inicio;
+export default OurCompany;

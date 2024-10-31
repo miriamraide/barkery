@@ -5,23 +5,19 @@ import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className=" bg-blue-500 ">
-      <div className="container ">
-        <div className="grid md:grid-cols-3 pb-4 pt-4">
-          <div className="py-1 px-1">
-            {" "}
-            <a
-              href="#"
-              className="text-red-700 tracking-widest text-2xl  uppercase sm:text-xl font-bold"
-            >
+      < div className="display: inline-flex grid-cols-3 bg-blue-400 py-1">
+       
+          <div className="grid-cols-3 py-1 px-1">
+            <h3
+              className="text-red-700 tracking-widest text-2xl  uppercase sm:text-xl font-bold">  
               Barkery Pet Shop
-            </a>
-            <p className="text-blackish lg:pr-24 font-bold">
+            </h3>
+            <div className="text-blackish lg:pr-24 font-bold text-wrap w-5">
               Nuestros Productos son realizados con materiales reciclados.
-              Nuestros alimentos orgánicos son producidos con los más altos
+              Nuestros alimnentos orgánicos son producidos con los más altos
               estandards de calidad.
-            </p>
-            <p>🐶❤️🐾</p>
+            </div>
+            <p>🐶❤️</p>
             <a
               href="https://www.youtube.com/shorts/0O8I0xtQFP8"
               target="_blank"
@@ -30,16 +26,16 @@ const Footer = () => {
               Visita Nuestro Canal de Youtube
             </a>
           </div>
+
           <div className="py-1 px-1">
-            {" "}
             <h3 className="text-red-700 lg:pr-28 font-extrabold text-center ">
               CONTACTO
             </h3>
             <p className="text-blackish lg:pr-24 font-bold text-center">
-              San Martin 1512{" "}
+              San Martin 1512
             </p>
             <p className="text-blackish lg:pr-24 font-bold text-center">
-              Buenos Aires - Capital - CP 1912{" "}
+              Buenos Aires - Capital - CP 1912
             </p>
             <p className="text-blackish lg:pr-24 font-bold text-center"> </p>
             <p className="text-blackish lg:pr-24 font-bold text-center">
@@ -51,13 +47,14 @@ const Footer = () => {
               </a>
             </p>
           </div>
-          <div className="py-2 px-4">
-            <div className="text-red-700 lg:pr-28 font-extrabold flex justify-end">
+
+          <div className="container py-1 px-1">
+            <p className="text-red-700 lg:pr-28 font-extrabold ">
               SEGUINOS EN SOCIAL MEDIA
-            </div>
+            </p>
             <div className="flex justify-center font-bold">
               <div className="mx-4 my-5">
-                <a href="https://www.facebook.com" target="_blank" a>
+                <a href="https://www.facebook.com" target="_blank">
                   <BsFacebook size={30} />{" "}
                 </a>
               </div>
@@ -72,14 +69,13 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className=" flex justify-end font-extrabold">
+            
+            <div className="justify-end font-extrabold">
               {" "}
               <BiCopyright /> 2024 - The A Team{" "}
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+          </div>
   );
 };
 
