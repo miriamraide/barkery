@@ -1,5 +1,5 @@
 
-import { TYPES } from '@/actions/actions';
+import { TYPES } from '@/actions/Actions';
 
 export const shoppingReducer = (state, action) => {
   switch (action.type) {
