@@ -6,7 +6,7 @@ import { shoppingReducer } from '@/reducer/ShoppingReducer';
 import Product from './Product';
 import CartItem from './CartItem';
 import ShoppingModal from '../ShoppingModal'; 
-import { TYPES } from '@/actions/actions';
+import { TYPES } from '@/actions/Actions';
 import  HeaderMain from '../HeaderMain';  
 import axios from 'axios';
 import CustomAlert from '../customAlert'; // Importa la alerta personalizada
